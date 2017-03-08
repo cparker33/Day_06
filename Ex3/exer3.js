@@ -2,6 +2,7 @@
 // The Arrays You Will Work With
 // ---------------------------
 var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+
 var strings = ['this','is','a','collection','of','words'];
 var instructors = [
     { firstname : 'JD', teaches : 'JavaScript'},
@@ -21,7 +22,7 @@ var instructors = [
 // ---------------------------
 
 
-Math.max.apply(null, numbers) // 4
+Math.max.apply(null, numbers) 
 
 
 // ---------------------------
@@ -90,7 +91,6 @@ for (var i = 0; i < numbers.length; i++) {
 
 }
 
-
 console.log(evNun) 
 
 // OR....
@@ -139,9 +139,12 @@ function tchJS(inst) {
   return inst.teaches === 'JavaScript'
 }
 
-jsTeachers.sort(function(a, b){
+jsTeachers.sort(function(a, b) {
+
     if(a.firstname < b.firstname) return -1;
+
     if(a.firstname > b.firstname) return 1;
+    
     return 0;
 })
 
