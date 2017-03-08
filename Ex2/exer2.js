@@ -82,7 +82,7 @@ console.log(rovarspraket("this is fun"))
 
 function rovarspraket(str) {
 
-  var nArr = []
+  var nArr = [] // create new array
 
   var nStr = str
 
@@ -110,7 +110,7 @@ function rovarspraket(str) {
 
   return (nArr) // return
 }
-  n
+  
 
 
 // ---------------------
