@@ -25,19 +25,30 @@
 // parameters and returns the sum of those 2 numbers.
 
 
+function sum(a + b) {
+
+  return (a + b)
+}
+
 
 
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
+function avg = (a, b, c) {
 
+  return ((a + b + c) / 3)
+}
 
 
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
+function (c) {
 
+  return c.length();
+}
 
 
 
@@ -47,7 +58,18 @@
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
+function greaterThan (a, b) {
 
+  if (a < b) {
+
+    return true
+
+  } else {
+
+    return false
+
+  }
+}
 
 
 // Q5
@@ -57,6 +79,10 @@
 // is the parameter that was passed in.
 
 
+function greet(c) {
+
+  return (" Hello, "  + c)
+}
 
 
 // Q6
@@ -69,6 +95,11 @@
 // strings. For example:
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
+
+function madlib(name, adj, verb, noun) {
+
+  return (name + " was a " + adj + " boy who liked to " + verb + " purple " + noun) 
+}
 
 
 
