@@ -66,11 +66,10 @@ function isVowel(char) {
 
           return true;
 
-        } else {
-
-          return false;
         }
       }
+
+      return false;
     }
 // ---------------------
 // Write a function translate() that will translate a text into "Rovarspraket". 
@@ -90,7 +89,7 @@ function rovarspraket(str) {
 
   for (var i = 0; i < nStr.length; i++) {
 
-    var patt = /a|e|i|o|u|\s/i // regEx for vowles - ( \s = " " )
+    var patt = /a|e|i|o|u|\s/i // regEx pattern for vowles - ( \s = " " )
 
     var result = patt.test(nStr[i]); // use test for boolean
 
@@ -106,9 +105,9 @@ function rovarspraket(str) {
 
   }
 
-  nArr = nArr.join("") // join new array
+  nArr = nArr.join("") // join new array to string
 
-  return (nArr) // return
+  return (nArr) // return string
 }
   
 

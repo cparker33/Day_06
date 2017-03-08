@@ -36,7 +36,7 @@ function sum(a + b) {
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-function avg = (a, b, c) {
+function avg(a, b, c) {
 
   return ((a + b + c) / 3)
 }
@@ -58,7 +58,7 @@ function (c) {
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
-function greaterThan (a, b) {
+function greaterThan(a, b) {
 
   if (a < b) {
 
@@ -81,7 +81,7 @@ function greaterThan (a, b) {
 
 function greet(c) {
 
-  return (" Hello, "  + c)
+  return ("Hello, "  + c)
 }
 
 
@@ -99,6 +99,7 @@ function greet(c) {
 function madlib(name, adj, verb, noun) {
 
   return (name + " was a " + adj + " boy who liked to " + verb + " purple " + noun) 
+
 }
 
 
